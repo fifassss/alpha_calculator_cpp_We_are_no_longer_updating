@@ -54,6 +54,9 @@ int main() // главная функция
             case 'p':
                 std::cout << "Возведение в степень = " << pow(num_one, num_two) << std::endl;
                 break;
+            default:
+                std::cout << "" << std::endl;
+                break;
         }
     }
 
